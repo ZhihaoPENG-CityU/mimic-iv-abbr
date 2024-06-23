@@ -70,7 +70,7 @@
 | linkorderid                   | 连接到当前记录的其他医嘱的标识符  |
 | statusdescription             | 记录的状态描述  |
 | originalamount                | 原始数值量  |
-| originalrate                  | 始速率值  |
+| originalrate                  | 原始速率值  |
 |                               |                                                                                          |
 |                               |                                                                                          |
 | **inputevents.csv**           | **给药途径、剂量、速率、开始时间和结束时间等液体或药物输入的数据** |
@@ -99,7 +99,7 @@
 | continueinnextdept            | 医嘱是否需要延续至下一个科室  |
 | statusdescription             | 记录的状态描述  |
 | originalamount                | 原始数值量  |
-| originalrate                  | 始速率值  |
+| originalrate                  | 原始速率值  |
 |                               |                                                                                          |
 |                               |                                                                                          |
 | **outputevents.csv**          | **排尿量、引流量等液体或药物输出的数据**  |
@@ -122,7 +122,7 @@
 | starttime                     | 事件开始的时间  |
 | endtime                       | 事件结束的时间  |
 | storetime                     | 记录被存储的时间  |
-| itemid                        | 记录的检测项目或特定项目的标识符  |
+| itemid                        | 检测项目或特定项目的标识符  |
 | value                         | 检测项目的测量值或描述  |
 | valueuom                      | 检测值的数值单位  |
 | location                      | 事件发生的位置  |
@@ -136,4 +136,4 @@
 | continueinnextdept            | 医嘱是否需要延续至下一个科室  |
 | statusdescription             | 记录的状态描述  |
 | originalamount                | 原始数值量  |
-| originalrate                  | 始速率值  |
+| originalrate                  | 原始速率值  |
