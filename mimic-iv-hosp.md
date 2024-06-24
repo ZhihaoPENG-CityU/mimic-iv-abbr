@@ -262,3 +262,9 @@
 | careunit                      | 患者所在病房的名称  |
 | intime                        | 患者入住病房的时间  |
 | outtime                       | 患者出院的时间  |
+|                               |                                                                                          |
+| **Reference**                 |                                                                                          |
+|[R] MIMIC-III Clinical Database, PhysioNet | https://physionet.org/content/mimiciii/1.4/                                  |
+|[R] MIMIC-IV, PhysioNet                    | https://physionet.org/content/mimiciv/2.2/icu/#files-panel                   |
+|[R] Tencent                                | https://cloud.tencent.com/developer/article/2359852                          |
+|                               |                                                                                          |
