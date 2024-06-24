@@ -1,7 +1,7 @@
 |  ---                          |                  ---                                                                     |
 |-------------------------------|------------------------------------------------------------------------------------------|
 |                               |                                                                                          |
-| **admissions.csv**          | **患者入院记录数据**   |
+| **admissions.csv**            | **患者入院记录数据**   |
 |                               |                                                                                          |
 | **chartevents.csv.gz**        | **患者事件记录**                                                                          |
 | subject_id                    | 患者标识符  |
@@ -33,7 +33,7 @@
 | **d_hcpcs.csv.gz,   d_icd_diagnoses.csv.gz, d_icd_procedures.csv.gz, d_labitems.csv.gz** | **补充说明文件**  |
 |                               |                                                                                          |
 |                               |                                                                                          |
-| **drgcodes.csv**                                                                         | **用于医疗费用计算和统计分析的诊断相关组（Diagnosis Related Group）代码数据**  |
+| **drgcodes.csv**              | **用于医疗费用计算和统计分析的诊断相关组（Diagnosis Related Group）代码数据**  |
 | subject_id                    | 患者标识符  |
 | hadm_id                       | 患者的住院标识符  |
 | drg_type                      | DRG类型 (DRG是根据患者入院诊断、手术情况、年龄、性别等因素进行分类的一种方法，用于决定医院住院费用的支付)  |
@@ -58,7 +58,7 @@
 | storetime                     | 药物管理记录被存储的时间  |
 |                               |                                                                                          |
 |                               |                                                                                          |
-| **emar_detail.csv**           | **关于患者药物治疗的电子药物管理记录数据**  |
+| **emar_detail.csv**           | **患者药物治疗的电子药物管理记录数据**  |
 | subject_id                    | 患者标识符  |
 | emar_id                       | 电子药物管理记录的标识符  |
 | emar_seq                      | 电子药物管理记录的顺序号  |
@@ -94,7 +94,8 @@
 | non_formulary_visual_verification  | 非法定目视核对的标志  |
 |                               |                                                                                          |
 |                               |                                                                                          |
-| **hcpcsevents.csv.gz**                                                                   | **补充说明文件**                                                                                                                                                                     |                               |                                                                                          |
+| **hcpcsevents.csv.gz**        | **补充说明文件**  |                               
+|                               |                                                                                          |
 |                               |                                                                                          |
 | **labevents.csv**             | **患者实验室检测结果的数据**  |
 | labevent_id                   | 实验室检查记录的标识符  |
@@ -139,11 +140,11 @@
 | dilution_text                 | 抗生素的稀释程度  |
 | dilution_comparison           | 用于比较抗生素的稀释程度  |
 | dilution_value                | 抗生素的稀释倍数  |
-| interpretation                | 解释，表示对测试结果的解释或诊断  |
+| interpretation                | 对测试结果的解释或诊断  |
 | comments                      | 其他相关信息的备注  |
 |                               |                                                                                          |
 |                               |                                                                                          |
-| **omr.csv.gz**                | **测量值（身高/体重/血压/BMI）**  |
+| **omr.csv.gz**                | **身高/体重/血压/BMI等测量值**  |
 |                               |                                                                                          |
 |                               |                                                                                          |
 | **patients.csv.gz**           | **病人信息**  |
@@ -152,7 +153,7 @@
 | anchor_age                    | 匿名化处理的年龄  |
 | anchor_year                   | 匿名化处理的年份（患者的真实年龄=anchor_age+admittime-anchor_year）  |
 | anchor_year_group             | 匿名化处理的年龄区间  |
-| dod                           | 死亡时间（1- read.csv("mimic_time.csv")； 2- survival_time =difftime(dmy(data$dod),date(dmy_hms(data$outtime)),units = "days"); 3- survival_time = as.numeric(data$survival_time)|
+| dod                           | 死亡时间（1- read.csv("mimic_time.csv")； 2- survival_time =difftime(dmy(data$dod),date(dmy_hms(data$outtime)),units = "days"); 3- survival_time = as.numeric(data$survival_time)  |
 |                               |                                                                                          |
 |                               |                                                                                          |
 | **pharmacy.csv**              | **药房数据，可能包含有关药品配送、管理和库存方面的信息**  |
