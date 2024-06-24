@@ -1,7 +1,7 @@
 |  ---                          |                  ---                                                                     |
 |-------------------------------|------------------------------------------------------------------------------------------|
-| **caregiver.csv.gz**          | **caregiver_id补充说明文件**   |
 |                               |                                                                                          |
+| **caregiver.csv.gz**          | **caregiver_id补充说明文件**   |
 |                               |                                                                                          |
 | **chartevents.csv.gz**        | **患者事件记录**                                                                          |
 | subject_id                    | 患者标识符  |
@@ -137,3 +137,9 @@
 | statusdescription             | 记录的状态描述  |
 | originalamount                | 原始数值量  |
 | originalrate                  | 原始速率值  |
+|                               |                                                                                          |
+| **Reference**                 |                                                                                          |
+|[R] MIMIC-III Clinical Database, PhysioNet | https://physionet.org/content/mimiciii/1.4/                                  |
+|[R] MIMIC-IV, PhysioNet                    | https://physionet.org/content/mimiciv/2.2/icu/#files-panel                   |
+|[R] Tencent                                | https://cloud.tencent.com/developer/article/2359852                          |
+|                               |                                                                                          |
